@@ -1,0 +1,14 @@
+{
+  "ApplicationId": "YOUR AWS PINPOINT PROJECT ID",
+  "SendUsersMessageRequest": {
+    "MessageConfiguration": {
+      "DefaultPushNotificationMessage": {
+        "Body": "Test Body",
+        "Title": "Test Title"
+      }
+    },
+    "Users": {
+      "YOUR USER ID": {}
+    }
+  }
+}

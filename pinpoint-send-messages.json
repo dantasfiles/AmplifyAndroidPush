@@ -1,0 +1,14 @@
+{
+  "ApplicationId": "YOUR AWS PINPOINT PROJECT ID",
+  "MessageRequest": {
+    "Endpoints": {
+      "YOUR ENDPOINT ID": {}
+    },
+    "MessageConfiguration": {
+      "DefaultPushNotificationMessage": {
+        "Body": "Test Body",
+        "Title": "Test Title"
+      }
+    }
+  }
+}
