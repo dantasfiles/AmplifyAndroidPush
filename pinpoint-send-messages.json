@@ -7,7 +7,12 @@
     "MessageConfiguration": {
       "DefaultPushNotificationMessage": {
         "Body": "Test Body",
-        "Title": "Test Title"
+        "Title": "Test Title",
+        "Data": {
+          "screen": "Notification",
+          "Data Field 1": "Data Value 1",
+          "Data Field 2": "Data Value 2"
+        }
       }
     }
   }
