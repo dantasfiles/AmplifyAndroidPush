@@ -1,4 +1,4 @@
-**Setting up a React Native app using AWS Amplify to receive Android Push Notifications **
+**Setting up a React Native app using AWS Amplify to receive Android Push Notifications**
 
 Full descriptions and instructions at: 
 
