@@ -28,7 +28,7 @@ PushNotification.onNotificationOpened(notification => {
   console.log('onNotificationOpened data', data);
 });
 
-async function associateEndpointWithUser(setEndpointId, setUserId) {
+async function associateEndpointWithUser(setUserId) {
   // retrieve and print the unique internal userid
   const {
     attributes: {sub},
@@ -53,7 +53,7 @@ const App = withAuthenticator(() => {
   // associate the device endpoint with the user
   const [userId, setUserId] = useState('');
   useEffect(() => {
-    associateEndpointWithUser(setEndpointId, setUserId);
+    associateEndpointWithUser(setUserId);
   }, []);
 
   return (
